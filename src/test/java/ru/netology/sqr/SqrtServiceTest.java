@@ -8,10 +8,10 @@ class SqrtServiceTest {
     @Test
     public void shouldSqrtService() {
         SqrtService service = new SqrtService();
-        int lowerLimit = 10;
+        int lowerLimit = 100;
         int upperLimit = 99;
 
-        int expected = 6;
+        int expected = 90;
 
         long actual = service.rangeOfNumbers(lowerLimit, upperLimit);
 
@@ -35,9 +35,9 @@ class SqrtServiceTest {
     public void shouldSqrtServiceMax() {
         SqrtService service = new SqrtService();
         int lowerLimit = 1;
-        int upperLimit = 99;
+        int upperLimit = 9801;
 
-        int expected = 9;
+        int expected = 90;
 
         long actual = service.rangeOfNumbers(lowerLimit,upperLimit );
 
