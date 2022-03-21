@@ -35,9 +35,9 @@ class SqrtServiceTest {
     public void shouldSqrtServiceMax() {
         SqrtService service = new SqrtService();
         int lowerLimit = 1;
-        int upperLimit = 9801;
+        int upperLimit = 99;
 
-        int expected = 99;
+        int expected = 9;
 
         long actual = service.rangeOfNumbers(lowerLimit,upperLimit );
 
