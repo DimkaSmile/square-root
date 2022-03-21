@@ -9,7 +9,7 @@ class SqrtServiceTest {
     public void shouldSqrtService() {
         SqrtService service = new SqrtService();
         int lowerLimit = 100;
-        int upperLimit = 99;
+        int upperLimit = 9801;
 
         int expected = 90;
 
